@@ -2,7 +2,7 @@
 Minimal skeleton JavaScript VS Code extension that does not use Yoeman
 
 ## Structure
-To recreate:
+Recreate this skeletal extension as detailed below:
 
 ### With GitHub 
 1. Create GitHub repo with a README and the MIT license
@@ -18,7 +18,7 @@ To recreate:
 1. Run `npm install --save-dev @types/vscode`
 
 ### Create `extension.js`
-1. Create `extension.js` with the following content:
+Create `extension.js` with the following content:
 ```javascript
 const vscode = require('vscode');
 
@@ -41,7 +41,7 @@ module.exports = {
 ```
 
 ### Update `package.json`
-1. Update the `package.json` file with the following content:
+Update the `package.json` file with the following content:
 ```json
 {
   "name": "my-vscode-extension",
@@ -83,7 +83,7 @@ module.exports = {
 > Update the various version numbers, extension name and other information as appropriate.
 
 ### Create `.vscodeignore`
-1. Create `.vscodeignore` file with the following content:
+Create `.vscodeignore` file with the following content:
 ```
 .vscode/**
 .vscode-test/**
@@ -92,7 +92,7 @@ node_modules/**
 ```
 
 ### Create `.gitignore`
-1. Create `.gitignore` file with the following content:
+Create `.gitignore` file with the following content:
 ```
 node_modules
 .vscode-test
